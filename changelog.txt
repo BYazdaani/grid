@@ -1,0 +1,12 @@
+== 0.8.1 ==
+10-Mar-12
+
+ - Added whitespace around splitter matching so "author" doesn't get picked up for "or"
+ - Added support for comparing two fields in Where statements (eg: "field1 < field2")
+ - Put Count into Build, so it's now formed like any other query
+ 
+== 0.8.2 ==
+21-Jun-12
+
+ - Fixed where statements so you don't /need/ whitespace around brackets et al
+ - Allowed LIKE statements to be formed in-query
